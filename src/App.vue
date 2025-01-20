@@ -6,7 +6,7 @@
   data(){
     return {
       name:"frank",
-      
+      status: true
     };
   }
  }
@@ -16,6 +16,7 @@
 <!--222222222   template: use data-->
 <template>
   <h1>{{ name }}</h1>
+  <p v-if="status">User is acttive</p>
 </template>
 
 
