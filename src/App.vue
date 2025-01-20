@@ -6,7 +6,7 @@
   data(){
     return {
       name:"frank",
-      status: true
+      status: false
     };
   }
  }
@@ -17,6 +17,7 @@
 <template>
   <h1>{{ name }}</h1>
   <p v-if="status">User is acttive</p>
+  <p v-else>User is inacttive</p>
 </template>
 
 
