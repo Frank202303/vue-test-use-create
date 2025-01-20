@@ -1,8 +1,13 @@
+<!-- 3 main parts -->
+ 
+<!--1111111 script -->
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
+
+<!--222222222   template-->
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
@@ -17,6 +22,8 @@ import TheWelcome from './components/TheWelcome.vue'
   </main>
 </template>
 
+
+<!-- 333333333333333       style -->
 <style scoped>
 header {
   line-height: 1.5;
